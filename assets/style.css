@@ -404,6 +404,18 @@ width: 27.5%;
     left: 40px;
     }
 
+    .number h3 {
+        position: relative;
+        left: -50px;
+    }
+
+    .titre h3, .blabla p {
+        position: relative;
+        left: -50px;
+    }
+   
+   
+
 
 }
 
