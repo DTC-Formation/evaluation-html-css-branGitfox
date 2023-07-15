@@ -5,56 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Test | HTML</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="container">
+      <div class="header">
+        <div class="icone">
+          <h1>W.</h1>
+        </div>
+        <div class="link">
+          <a href="#">Home</a>
+          <a href="#">New</a>
+          <a href="#">Popular</a>
+          <a href="#">Trending</a>
+          <a href="#">Categorie</a>
+        </div>
+      </div>
+      <div class="body">
+          <div class="body-1">
+            <div class="gauche">
+              <div class="images">
+                <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+              </div>
+              <div class="contenu">
+                <div class="title"><h2>The Bright Future of Web.3?</h2></div>
+                <div class="text">
+                  <div class="soratra">
+                    <p>we dive into the next evolution of the web that claims to put the power 
+                      of the platforms back into the hands of the people. But it is really fulfilling its promise?</p>
+                  </div>
+                  <div class="bouton">
+                      <button>READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="droite">
+              <div class="top">
+                <div class="top-title"><h2>New</h2></div>
+                <div class="content">
+                  <h3>Hydrogen VS Electric Cars</h3>
+                  <p>Will hydrogen-fueled cars ever catch-up to EVs</p>
+                </div>
+              </div>
+              <div class="middle">
+                <h3>The Downsides of Ai Artistry </h3>
+                  <p>What are the possible adverse effects of on-demande AI image generation?</p>
+              </div>
+              <div class="bottom">
+                <h3>Is VC Funding Drying Up?</h3>
+                  <p>Private funding by vc firms is down 50% YOY. We take a look at what that means</p>
+              </div>
+            </div>
+          </div>
+          <div class="body-2">
+            <div class="robot">
+              <div class="robot-pic">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="">
+              </div>
+              <div class="robot-cont">
+                <div class="number">
+                    <h3>01</h3>
+                </div>
+                <div class="titre"><h3>Reviving Retro PCs</h3></div>
+                <div class="blabla">
+                  <p>What happens when old PCs are given modern upgrades</p>
+                </div>
+              </div>
+            </div>
+            <div class="clavier"></div>
+            <div class="game"></div>
+          </div>
+      </div>
+    </div>
 </body>
 </html>
