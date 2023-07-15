@@ -406,12 +406,12 @@ width: 27.5%;
 
     .number h3 {
         position: relative;
-        left: -50px;
+        left: -40px;
     }
 
     .titre h3, .blabla p {
         position: relative;
-        left: -50px;
+        left: -40px;
     }
    
    
@@ -429,6 +429,15 @@ width: 27.5%;
         position: relative;
         top: 54rem;
         
+    }
+    .number h3 {
+        position: relative;
+        left: -20px;
+    }
+
+    .titre h3, .blabla p {
+        position: relative;
+        left: -20px;
     }
 
     .clavier {
@@ -452,6 +461,17 @@ width: 27.5%;
     }
 }
 
+@media screen and (max-width:361px) {
+    .number h3 {
+        position: relative;
+        left: -5px;
+    }
+
+    .titre h3, .blabla p {
+        position: relative;
+        left: -5px;
+    }
+}
 
 
 
