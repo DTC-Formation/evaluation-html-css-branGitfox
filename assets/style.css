@@ -27,6 +27,10 @@ body {
     margin-left: 30px;
     text-decoration: none;
     color: hsl(233, 8%, 79%) ;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 8rem;
 }
 .icone {
     width: 50%;
@@ -38,7 +42,7 @@ body {
 .icone h1 {
     margin-left: 2px;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -196,7 +200,9 @@ width: 27.5%;
 .game {
     width: 33%;
     height: 100%;
-    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .number h3 {
     color: hsl(233, 8%, 79%);
@@ -204,6 +210,7 @@ width: 27.5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 3px;
     margin-bottom: 10px;
+    
 }
 .titre h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -224,6 +231,17 @@ width: 27.5%;
 }
 .clavier-cont {
     width: 210px;
+}
+.game-pic img {
+    width: 200px;
+    height: 100%;
+}
+.game-pic {
+    height: 100%;
+}
+.game-cont {
+    width: 210px;
+ 
 }
 
 
