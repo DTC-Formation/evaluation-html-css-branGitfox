@@ -461,6 +461,10 @@ width: 27.5%;
     }
 }
 
+button:hover {
+    background-color:hsl(5, 88%, 72%);
+}
+
 @media screen and (max-width:361px) {
     .number h3 {
         position: relative;
