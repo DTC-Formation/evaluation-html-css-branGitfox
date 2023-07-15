@@ -38,6 +38,9 @@ body {
     align-items: center;
     
 }
+.link a:hover{
+    color:  hsl(5, 85%, 63%);
+}
 
 .icone h1 {
     margin-left: 2px;
@@ -196,6 +199,7 @@ width: 27.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+   ;
 }
 .game {
     width: 33%;
@@ -203,6 +207,8 @@ width: 27.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+   
+    /* margin-left: 20px; */
 }
 .number h3 {
     color: hsl(233, 8%, 79%);
@@ -243,6 +249,8 @@ width: 27.5%;
     width: 210px;
  
 }
+
+
 
 
 
